@@ -10,7 +10,7 @@ Generate a DSM/DGM from point cloud data in LAZ format using Python.
 - Computes gridded median surface
 - Interpolates missing cells
 - Saves output as GeoTIFF with proper CRS
-- Optional surface visualization via Matplotlib
+- Optional surface visualization via Matplotlib (slow, not recommended)
 
 ---
 
