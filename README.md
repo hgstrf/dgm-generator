@@ -60,6 +60,15 @@ python generate_dsm.py \
   --plot
 ```
 
+## Example Output
+
+### LAZ Input (Raw Point Cloud)
+![LAZ Input](assets/laz_example.png)
+
+### DSM Output (Interpolated Raster)
+![DSM Output](assets/dsm_example.png)
+
+
 ---
 
 ## Notes
