@@ -1,0 +1,6 @@
+laspy>=2.0
+numpy>=1.21
+scipy>=1.7
+matplotlib>=3.4
+rasterio>=1.2
+tqdm>=4.60
