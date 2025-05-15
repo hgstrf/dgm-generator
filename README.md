@@ -49,17 +49,6 @@ python generate_dsm.py \
 
 ---
 
-## Example
-
-```
-python generate_dsm.py \
-  --input ./input/example.laz \
-  --classes 2 \
-  --grid-size 0.5 \
-  --crs EPSG:4326 \
-  --plot
-```
-
 ## Example Output
 
 ### LAZ Input (Raw Point Cloud)
