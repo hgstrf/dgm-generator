@@ -51,7 +51,7 @@ python generate_dsm.py \
 
 ## Example Output
 
-### LAZ Input (Raw Point Cloud)
+### LAZ Input ([Classified] Point Cloud)
 ![LAZ Input](assets/laz_example.png)
 
 ### DSM Output (Interpolated Raster)
