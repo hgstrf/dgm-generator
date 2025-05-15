@@ -1,6 +1,7 @@
 import argparse
 import logging
 import os
+import numpy as np
 from pathlib import Path
 from utils import (
     read_laz_file,
@@ -64,7 +65,8 @@ def main():
     output_path = output_dir / filename
 
     logging.info(f"Saving GeoTIFF to {output_path}")
-    save_geotiff(output_path, zi_interp, xmin, ymax, args.grid_size, args.crs)
+    zi_interp_flipped = np.flipud(zi_interp)
+    save_geotiff(output_path, zi_interp_flipped, xmin, ymax, args.grid_size, args.crs)
 
     logging.info("Done.")
 
